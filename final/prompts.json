@@ -1,0 +1,14 @@
+[
+    {
+        "name":"Zero-Shot",
+        "prompt":"請回答下列問題：{question}"
+    },
+    {
+        "name":"Few-Shot",
+        "prompt":"範例:\nQ:1+1=?\nA:2\n\n請回答:{question}"
+    },
+    {
+        "name":"Chain-of-Thought",
+        "prompt":"請一步一步思考後回答:\n{question}"
+    }
+]
